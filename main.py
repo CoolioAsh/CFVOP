@@ -17,7 +17,7 @@ class Runtime:
         if choice == 1:
             print("Starting option 1")
             cards = []
-            for file in os.listdir("~/Documents/JavaProjects/Cardfight Vanguard Online/src/alpha/CardRawData/"):
+            for file in os.listdir("/Users/ian/PycharmProjects/CFVOP/Card_Json_Data/"):
                 c = Card.from_file(file)
                 cards.append(c)
         elif choice == 2:
