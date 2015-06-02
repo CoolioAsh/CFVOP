@@ -1,0 +1,10 @@
+Lizard Soldier, Conroe
+5000
+10000
+1
+0
+Kagero
+2
+null
+null
+null

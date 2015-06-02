@@ -1,0 +1,10 @@
+Tyrant, Deathrex
+10000
+0
+1
+3
+Tachikaze
+2
+null
+null
+null

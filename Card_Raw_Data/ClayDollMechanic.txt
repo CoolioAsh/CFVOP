@@ -1,0 +1,10 @@
+Clay-doll Mechanic
+7000
+5000
+1
+1
+Nova Grappler
+2
+null
+null
+null

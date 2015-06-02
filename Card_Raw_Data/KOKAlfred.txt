@@ -1,0 +1,10 @@
+King of Knights, Alfred
+10000
+0
+1
+3
+Royal Paladin
+2
+null
+null
+null

@@ -1,0 +1,10 @@
+Battleraizer
+3000
+10000
+1
+0
+Nova Grappler
+1
+2
+null
+null

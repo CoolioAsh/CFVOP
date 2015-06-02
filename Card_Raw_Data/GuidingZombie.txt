@@ -1,0 +1,10 @@
+Guiding Zombie
+5000
+10000
+1
+0
+Granblue
+2
+null
+null
+null

@@ -1,0 +1,10 @@
+Monster Frank
+10000
+0
+1
+3
+Granblue
+2
+null
+null
+null

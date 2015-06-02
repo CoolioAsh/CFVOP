@@ -1,0 +1,10 @@
+Hell Spider
+10000
+0
+1
+3
+Megacolony
+2
+null
+null
+null

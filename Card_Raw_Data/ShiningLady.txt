@@ -1,0 +1,10 @@
+Shining Lady
+5000
+10000
+1
+0
+Nova Grappler
+1
+1
+null
+null

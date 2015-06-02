@@ -1,0 +1,10 @@
+Test CumBukket
+8000
+5000
+1
+2
+Royal Paladin
+2
+null
+null
+null

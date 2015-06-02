@@ -1,0 +1,10 @@
+King of Sword
+10000
+5000
+1
+2
+Nova Grappler
+2
+null
+null
+null

@@ -1,0 +1,10 @@
+Lozenge Magus
+3000
+10000
+1
+0
+Oracle Think Tank
+1
+4
+null
+null
