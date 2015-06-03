@@ -10,22 +10,35 @@ class Runtime:
         print("2. Creation of Decks and Browsing of Decks")
         print("3. Starting a Game and Browsing Old Games")
         print("4. Options and Settings")
+        cls.choice = ""
         try:
-            choice = int(input('Input:'))
+            cls.choice = int(input('Input:'))
         except ValueError:
             print("Not a number")
-        if choice == 1:
+        if cls.choice == 1:
             print("Starting option 1")
             cards = []
             for file in os.listdir("Card_Json_Data/"):
                 c = Card.from_file("Card_Json_Data/" + file)
                 cards.append(c)
-                print(cards[0].name)
-        elif choice == 2:
+            print(len(cards))
+            print("Would you like to see the card database?")
+            sinput = str(input('Input:'))
+            if sinput == "yes":
+                for i, element in enumerate(cards):
+                    print(str(cards[i].name) + str("\n") + str(cards[i].power) + str("\n") + str(cards[i].shield)
+                          + str("\n") + str(cards[i].critical) + str("\n") + str(cards[i].grade) + str("\n")
+                          + str(cards[i].clan))
+            elif sinput == "no":
+                print("moving on")
+            else:
+                print("Error")
+
+        elif cls.choice == 2:
             print("Starting option 2")
-        elif choice == 3:
+        elif cls.choice == 3:
             print("Starting option 3")
-        elif choice == 4:
+        elif cls.choice == 4:
             print("Starting option 4")
         else:
             print("Invalid Response")

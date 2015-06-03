@@ -8,6 +8,9 @@ class Card:
         self.critical = critical
         self.grade = grade
         self.clan = clan
+        self.state_of_card = True
+        self.state_of_lock = False
+        self.state_of_tap = False
 
     @classmethod
     def from_file(cls, filename):

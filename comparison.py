@@ -1,15 +1,15 @@
 __author__ = 'ian'
 class Comp:
     @classmethod
-    def basecomp(cls, a, b):
+    def base_comp(cls, a, b):
         if a > b:
-            print("Yep")
+            print("Greater")
             return 1
         elif a < b:
-            print("Nope")
+            print("Lesser")
             return -1
         elif a == b:
-            print("Equals")
+            print("Equal in Value")
             return 0
         else:
             print("Error")
