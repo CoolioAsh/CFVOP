@@ -17,9 +17,10 @@ class Runtime:
         if choice == 1:
             print("Starting option 1")
             cards = []
-            for file in os.listdir("/Users/ian/PycharmProjects/CFVOP/Card_Json_Data/"):
-                c = Card.from_file(file)
+            for file in os.listdir("Card_Json_Data/"):
+                c = Card.from_file("Card_Json_Data/" + file)
                 cards.append(c)
+                print(cards[0].name)
         elif choice == 2:
             print("Starting option 2")
         elif choice == 3:
