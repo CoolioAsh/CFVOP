@@ -1,5 +1,6 @@
 __author__ = 'ian'
 from Card import *
+from deckbuilder import DeckBuilder
 import os
 class Runtime:
     @classmethod
@@ -36,6 +37,7 @@ class Runtime:
 
         elif cls.choice == 2:
             print("Starting option 2")
+            cls.new_deck = DeckBuilder.__init__(self, cls.cards)
         elif cls.choice == 3:
             print("Starting option 3")
         elif cls.choice == 4:
